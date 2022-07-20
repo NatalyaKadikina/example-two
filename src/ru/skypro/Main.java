@@ -6,23 +6,23 @@ public class Main {
 
 
         // Задача 1
-        byte cat = 1;
-        short mouse = 3;
-        int dog = 7;
-        long elephant = 110L;
+        byte b = 15;
+        short s = 1400;
+        int i = 32566665;
+        long l = 110_150_450_452L;
 
-        float saltWeight = 1.5f;
-        double sugarWeight = 4.5;
+        float f = 1.5f;
+        double d = 23423.234234;
 
-        boolean dogIsAdult = true;
         char c = 'c';
+        boolean bool = true;
 
         // Задача 2
-        double boxer1 = 78.2;
-        double boxer2 = 82.7;
+        double weight1 = 78.2;
+        double weight2 = 82.7;
 
-        double weightOffAllBoxers = boxer1 + boxer2;
-        double weightDifference = Math.abs(boxer1 - boxer2);
+        double weightOffAllBoxers = weight1 + weight2;
+        double weightDifference = Math.abs(weight1 - weight2);
 
         System.out.println("Общий вес боксеров " + weightOffAllBoxers);
         System.out.println("Разница в весе боксеров " + weightDifference);
@@ -79,11 +79,11 @@ public class Main {
 
         int mashaDifference = (mashaNewSalary - mashaSalary) * 12;
         int denisDifference = (denisNewSalary - denisSalary) * 12;
-        int kristinsDifference = (kristinaNewSalary - kristinaSalary) * 12;
+        int kristinaDifference = (kristinaNewSalary - kristinaSalary) * 12;
 
         System.out.println("Маша теперь получает " + mashaNewSalary + " рублей. Годовой доход вырос на " + mashaDifference + " рублей");
         System.out.println("Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос на " + denisDifference + " рублей");
-        System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " + kristinsDifference + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " + kristinaDifference + " рублей");
     }
 }
 
